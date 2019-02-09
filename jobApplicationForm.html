@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Job Application Form</title>
+		<style>
+			body{
+				color: #FFBC00;
+    			font-size: 20px;
+    			font-family: "Passion One";
+				margin-bottom: 0px;
+				background-color: antiquewhite
+			}
+			h2{
+				background-color: rgb(165, 132, 83);
+				padding: 10px; 
+				margin: 0px; 
+			}
+		</style>
+	</head>
+<body>
+	<h1 align="center">Job Application Form</h1>
+<form>
+	<div id="personal information">
+		<h2 align="center">Personal Information</h2>
+		<style>
+			body{
+			font-family: "Passion one";
+			font-size: 20px;
+			}
+		</style>
+
+	</div>
+	<table>
+		<tr>
+			<td>
+				First Name: 
+			</td>
+			<td>
+				<input type="text" >
+			</td>
+
+		</tr>
+		<tr>
+			<td>
+				Last Name: 
+			</td>
+			<td>
+				<input type="text" >
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Password: 
+			</td>
+			<td>
+				<input type="Password" placeholder="Password" name="">
+			</td>
+			<tr>
+				<td>
+					Gender: 
+				</td>
+				<td>
+					<input type="radio" name="Gender">Male
+					<input type="radio" name="Gender">Female 
+				</td>
+			</tr>
+			<td>
+				Email: 
+			</td>
+			<td>
+				<input type="mail" placeholder="Email" name="">
+			</td>
+		</tr>
+		
+		<td>
+			Moblie Number: 
+		</td>
+		<td>
+			<select>
+				<option>+1</option>
+				<option>+86</option>
+				<option>+224</option>
+				<option>+234</option>
+				<option>+239</option>
+				<option>+245</option>
+				<option>+252</option>
+			
+			</select>
+			<input type="Phone" placeholder=123456789 name="">
+		</td>
+		
+	</table>
+	<div id="Availability">
+		<h2 align="center">Availability</h2>
+		<style>
+			body{
+				margin: 0px;
+				font-size: 20px; 
+				font-family: "Passion One";
+			}
+		</style>
+
+	<div class="field">
+		<label>Are you legally able to be employed in this country?</label> 
+		<input type="radio" name="legal" value="yes">Yes
+		<input type="radio" name="legal" value="no">No
+	</div>
+
+		<div class="field">
+		<label>What is your first language?</label>
+		<input type="radio" name="English" value="yes">English
+		<input type="radio" name="English" value="yes">Spanish
+		<input type="radio" name="English" value="yes">Chinese
+		<input type="radio" name="English" value="yes">Japanese
+		<input type="radio" name="English" value="yes">Others
+	</div>
+	<div class="field">
+		<label>What type of position are you seeking? (check all that apply)</label>
+		<ul>
+			<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
+			<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
+			<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
+			<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+		</ul>
+	</div>
+</div>
+
+
+		<table>
+			<tr>
+				<td></td>
+				<th>Sun</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+			</tr>
+			<tr>
+				<th>From</th>
+				<td><input type="time" size="5" name="su_from"></td>
+				<td><input type="time" size="5" name="mo_from"></td>
+				<td><input type="time" size="5" name="tu_from"></td>
+				<td><input type="time" size="5" name="we_from"></td>
+				<td><input type="time" size="5" name="th_from"></td>
+				<td><input type="time" size="5" name="fr_from"></td>
+				<td><input type="time" size="5" name="sa_from"></td>
+			</tr>
+			<tr>
+				<th>Until</th>
+				<td><input type="time" size="5" name="su_until"></td>
+				<td><input type="time" size="5" name="mo_until"></td>
+				<td><input type="time" size="5" name="tu_until"></td>
+				<td><input type="time" size="5" name="we_until"></td>
+				<td><input type="time" size="5" name="th_until"></td>
+				<td><input type="time" size="5" name="fr_until"></td>
+				<td><input type="time" size="5" name="sa_until"></td>
+			</tr>
+		</div>	
+		
+		
+		
+			
+	</fieldset>
+	
+		</table>
+	</div>
+		<div class="field">
+			<div id="personal-statement">
+				<h2 align="center">Personal Statement</h2>
+				<textarea rows="10" cols="90" name="essay">What is your potential skill?</textarea>
+				<style>
+					body{
+						font-size:20px;
+						margin: 0px;
+					}
+				</style>
+			</div>	
+			<tr>
+					<td>
+						<input type="Submit" Value="Submit" name="">
+					</td>
+				</tr>
+</form>
+</body>
+</html>
